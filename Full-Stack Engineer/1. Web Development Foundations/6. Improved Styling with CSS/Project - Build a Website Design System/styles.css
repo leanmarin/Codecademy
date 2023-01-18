@@ -1,0 +1,122 @@
+    /* FONT: PT MONO */
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+    /* FONT: SPACE MONO */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+    /* FONT: RUBIK */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400&display=swap');
+
+    /* FONT: ZILLA */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    font-family: "PT Mono", monospace;
+    background-color: #FFF0E5;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.principal {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.colors {
+    padding: 0 95px;
+    margin-bottom: 5px;
+}
+
+.c-one, .c-two,
+.c-three, .c-four,
+.c-five, .c-six {
+    display: inline-block;
+    width: 250px;
+    height: 130px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.c-one {
+    background-color: #FFD300;
+}
+
+.c-two {
+    background-color: #10162F;
+}
+
+.c-three {
+    background-color: #AEE938;
+}
+
+.c-four {
+    background-color: #3A10E5;
+}
+
+.c-five {
+    background-color: #1557FF;
+}
+
+.c-six {
+    background-color: #F966FF;
+}
+
+.n-color {
+    background-color: transparent;
+    color: white;
+    padding-top: 10px;
+}
+
+    /* Fonts */
+.font-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.fr-space {
+    font-family: "Space Mono", monospace;
+}
+
+.fb-space {
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+}
+
+.fi-space {
+    font-family: "Space Mono", monospace;
+    font-style: italic;
+}
+
+.fr-rubik {
+    font-family: "Rubik", sans-serif;
+}
+
+.fb-rubik {
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+
+.fi-rubik {
+    font-family: "Rubik", sans-serif;
+    font-style: italic;
+}
+
+.fr-zilla {
+    font-family: "Zilla Slab", serif;
+}
+
+.fb-zilla {
+    font-family: "Zilla Slab", serif;
+    font-weight: bold;
+}
+
+.fi-zilla {
+    font-family: "Zilla Slab", serif;
+    font-style: italic;
+}

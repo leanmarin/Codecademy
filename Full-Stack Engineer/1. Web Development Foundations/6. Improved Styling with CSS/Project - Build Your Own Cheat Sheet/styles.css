@@ -1,0 +1,41 @@
+* {
+    font-family: monospace, sans-serif;
+}
+
+body {
+    background-color: #FFE5B4;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #231955;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table, th, td {
+    border: 3px solid #E8AA42;
+}
+
+td {
+    color: #1F4690;
+    font-weight: 600;
+}
+
+th {
+    background-color: #E8AA42;
+    color: #fff;
+}
+
+.descript {
+    text-align: center;
+}
+
+td {
+    padding: 0 20px; 
+}

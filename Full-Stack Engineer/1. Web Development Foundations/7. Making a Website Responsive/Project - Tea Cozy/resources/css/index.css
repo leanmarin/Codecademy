@@ -1,0 +1,162 @@
+* {
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+}
+
+body {
+  position: relative;
+  bottom: -70px;
+  background-color: black;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+  /* Nav Bar*/
+.nav-bar {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  top: 0px;
+  background-color: black;
+  opacity: 1;
+}
+
+.nb-1, .nb-2 {
+  display: flex;
+  align-items: center;
+}
+
+.nb-2 {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.nb-2 {
+  justify-content: end;
+}
+
+li {
+  display: inline;
+  padding: 0 10px;
+}
+
+  /* Hero*/
+.hero {
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  opacity: 1;
+  background-color: black;
+  flex-wrap: wrap;
+}
+
+.hero-text h2, .hero-text h4 {
+  text-align: center;
+  width: 1200px;
+}
+
+  /*Tea of the Month*/
+.tea-month-text {
+  height: 100px;
+  width: 1000px;
+  margin: 50px auto 20px;
+}
+
+.tea-month-text h2, .tea-month-text h4 {
+  text-align: center;
+}
+
+.tea-month-img {
+  height: 500px;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+figure {
+  display: flex;
+  width: 300px;
+  height: 250px;
+  margin: 10px;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.images-month {
+  height: 200px;
+  width: 300px;
+}
+
+  /*Locations*/
+.location {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin: 50px auto 20px;
+  height: 500px;
+  width: 1200px;
+}
+
+.first-text-loc {
+  display: inline-block;
+  width: 1200px;
+  margin: 45px auto 0;
+}
+
+.first-text-loc h2 {
+  text-align: center;
+}
+
+.locations-squares {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rest {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  background-color: black;
+  align-items: center;
+}
+
+.rest h3, .rest p {
+  display: inline;
+}
+
+.contact {
+  height: 200px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.copyright {
+  margin-left: 20px;
+  padding-bottom: 20px;
+} 
+

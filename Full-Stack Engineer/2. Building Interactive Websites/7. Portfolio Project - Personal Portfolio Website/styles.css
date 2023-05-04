@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: end;
+}
+
+nav span {
+  font-weight: bold;
+}
+
+nav span a {
+  text-decoration: none;
+}
+
+.hb {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.hb img {
+  width: 300px;
+  height: 300px;
+}
+
+svg {
+  width: 50px;
+  height: 50px;
+}
+
+.projects details summary{
+  /* margin: 0; */
+  cursor: pointer;
+  /* list-style-type: none; */
+}

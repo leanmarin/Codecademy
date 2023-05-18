@@ -1,3 +1,5 @@
+-- Baseball Awards
+
 -- Heaviest Hitters
 SELECT teams.name AS "Team", batting.yearid AS "Year", ROUND(AVG(weight), 2) AS "Average Weight"
 FROM people 

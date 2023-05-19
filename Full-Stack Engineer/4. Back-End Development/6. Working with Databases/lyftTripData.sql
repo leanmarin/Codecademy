@@ -1,3 +1,5 @@
+-- Lyft Trip Data
+
 -- Examing the data
 SELECT * FROM trips;
 SELECT * FROM riders;
